@@ -1412,7 +1412,52 @@ const fine = matchMedia('(hover: hover) and (pointer: fine)').matches;
 const pages = ['home','system','grapnel','showcase','technical','about'];
 let currentPage = 'home';
 let ptLock = false;
+let CONTENT = {};
 const ptLabels = {home:'Home — Surface',system:'System Architecture',grapnel:'The Grapnel Capsule',showcase:'Capsule Showcase',technical:'AI Technology',about:'About LOOM'};
+
+/* load content from JSON */
+(async function(){
+  try {
+    const r = await fetch('content.json');
+    if (!r.ok) throw new Error('Failed to load content');
+    CONTENT = await r.json();
+    applyContent();
+  } catch (e) {
+    console.error('Content load error:', e);
+  }
+})();
+
+function applyContent(){
+  if (!CONTENT.pages) return;
+  /* boot screen */
+  const bootLogo = document.querySelector('.boot-logo');
+  if (bootLogo && CONTENT.boot) bootLogo.textContent = CONTENT.boot.logo;
+  const bootSub = document.querySelector('.boot-sub');
+  if (bootSub && CONTENT.boot) bootSub.textContent = CONTENT.boot.subtitle;
+
+  /* nav */
+  const navLogoText = document.querySelector('.nav-logo b');
+  if (navLogoText && CONTENT.nav) navLogoText.textContent = CONTENT.nav.logo;
+
+  /* hero */
+  const heroTitle = document.querySelector('.hero-title');
+  if (heroTitle && CONTENT.pages.home) {
+    heroTitle.innerHTML = '';
+    for (let i = 0; i < CONTENT.pages.home.title.length; i++) {
+      const span = document.createElement('span');
+      span.className = 'lt';
+      span.style.setProperty('--i', i);
+      span.textContent = CONTENT.pages.home.title[i];
+      heroTitle.appendChild(span);
+    }
+  }
+
+  /* footer */
+  const footerLogo = document.querySelector('.footer-logo');
+  if (footerLogo && CONTENT.footer) footerLogo.textContent = CONTENT.footer.logo;
+  const footerCopy = document.querySelector('.footer-copy');
+  if (footerCopy && CONTENT.footer) footerCopy.textContent = CONTENT.footer.copyright;
+}
 
 /* counters */
 function countUp(el){

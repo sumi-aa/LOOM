@@ -1,0 +1,335 @@
+{
+  "meta": {
+    "title": "LOOM — Maritime Survival Intelligence",
+    "description": "AI Maritime Survival Intelligence System"
+  },
+  "boot": {
+    "logo": "LOOM",
+    "subtitle": "descending to operating depth"
+  },
+  "nav": {
+    "logo": "LOOM",
+    "links": [
+      { "text": "System", "page": "system" },
+      { "text": "Grapnel", "page": "grapnel" },
+      { "text": "Showcase", "page": "showcase" },
+      { "text": "Technical", "page": "technical" },
+      { "text": "About", "page": "about" }
+    ],
+    "cta": "Explore"
+  },
+  "pages": {
+    "home": {
+      "tag": "MARITIME EMERGENCY INTELLIGENCE · GEN 4.1",
+      "title": "LOOM",
+      "subtitle": "AI MARITIME SURVIVAL INTELLIGENCE SYSTEM",
+      "tagline": "Predict. Protect. <b>Survive.</b>",
+      "buttons": [
+        { "text": "Explore the System", "type": "primary" },
+        { "text": "Meet the Grapnel", "type": "ghost" }
+      ],
+      "problems": {
+        "title": "The Challenge.",
+        "items": [
+          { "number": "60", "label": "Minutes" },
+          { "number": "4000+", "label": "Square Miles" },
+          { "number": "85%", "label": "Success Rate Gap" }
+        ],
+        "closing": "We don't have enough <em>time</em>, enough <em>sight</em>, or enough <em>intelligence</em>."
+      },
+      "overview": {
+        "title": "How LOOM works.",
+        "subtitle": "Five integrated layers working in concert — from sensor data to rescue coordination, in under one second.",
+        "cards": [
+          {
+            "icon": "sensor",
+            "title": "Digital Twin Ship",
+            "body": "Every vessel running LOOM hosts a real-time digital mirror of its physical state. Sensors are embedded throughout the ship, tracking structural, environmental, and biological conditions simultaneously."
+          },
+          {
+            "icon": "brain",
+            "title": "Predictive Intelligence",
+            "body": "Real-time sensor feeds power a predictive AI engine that forecasts emergency states before they escalate, giving crews precious minutes to respond."
+          },
+          {
+            "icon": "map",
+            "title": "Spatial Awareness",
+            "body": "LOOM maps the vessel's state in 3D, pinpointing critical zones and optimizing evacuation routes. The system understands every corridor, hatch, and compartment."
+          },
+          {
+            "icon": "radio",
+            "title": "Autonomous Coordination",
+            "body": "On distress trigger, LOOM broadcasts your exact location, vessel state, survivor count, and recommended rescue approach to all nearby surface and air assets."
+          },
+          {
+            "icon": "beacon",
+            "title": "Continuous Adaptation",
+            "body": "As conditions evolve, LOOM recalculates rescue windows and broadcasts updated coordinates. No silent failures — crews always know the system is thinking."
+          },
+          {
+            "icon": "link",
+            "title": "Human-in-the-Loop",
+            "body": "LOOM advises; humans decide. Every critical action is presented with confidence scores, alternatives, and the raw data crew members need to override."
+          }
+        ]
+      },
+      "transition": "The hardware foundation."
+    },
+    "system": {
+      "tag": "SYSTEM ARCHITECTURE",
+      "title": "How LOOM <em>works.</em>",
+      "subtitle": "Five integrated layers working in concert — from sensor data to rescue coordination, in under one second.",
+      "layers": [
+        {
+          "number": "01",
+          "tag": "LAYER 01",
+          "title": "Digital Twin Ship",
+          "body": "Every vessel running LOOM hosts a real-time digital mirror of its physical state. Sensors are embedded throughout the ship, tracking structural, environmental, and biological conditions simultaneously.",
+          "metrics": [
+            { "label": "Sensors", "value": "847", "suffix": "active" },
+            { "label": "Refresh", "value": "120", "suffix": "Hz" },
+            { "label": "Latency", "value": "<2", "suffix": "ms" }
+          ]
+        },
+        {
+          "number": "02",
+          "tag": "LAYER 02",
+          "title": "Predictive Intelligence",
+          "body": "Real-time sensor feeds power a predictive AI engine that forecasts emergency states before they escalate, giving crews precious minutes to respond.",
+          "metrics": [
+            { "label": "Accuracy", "value": "98.7", "suffix": "%" },
+            { "label": "Lookhead", "value": "12", "suffix": "min" },
+            { "label": "Models", "value": "42", "suffix": "active" }
+          ]
+        },
+        {
+          "number": "03",
+          "tag": "LAYER 03",
+          "title": "Spatial Awareness",
+          "body": "LOOM maps the vessel's state in 3D, pinpointing critical zones and optimizing evacuation routes. The system understands every corridor, hatch, and compartment.",
+          "metrics": [
+            { "label": "Coverage", "value": "100", "suffix": "%" },
+            { "label": "Zones", "value": "156", "suffix": "mapped" },
+            { "label": "Routes", "value": "1247", "suffix": "calculated" }
+          ]
+        },
+        {
+          "number": "04",
+          "tag": "LAYER 04",
+          "title": "Autonomous Coordination",
+          "body": "On distress trigger, LOOM broadcasts your exact location, vessel state, survivor count, and recommended rescue approach to all nearby surface and air assets.",
+          "metrics": [
+            { "label": "Broadcast", "value": "7", "suffix": "channels" },
+            { "label": "Range", "value": "2000", "suffix": "km" },
+            { "label": "Assets", "value": "Real-time" }
+          ]
+        },
+        {
+          "number": "05",
+          "tag": "LAYER 05",
+          "title": "Continuous Adaptation",
+          "body": "As conditions evolve, LOOM recalculates rescue windows and broadcasts updated coordinates. No silent failures — crews always know the system is thinking.",
+          "metrics": [
+            { "label": "Recalc", "value": "2.5s", "suffix": "interval" },
+            { "label": "Confidence", "value": "Live", "suffix": "scoring" },
+            { "label": "Uptime", "value": "99.99", "suffix": "%" }
+          ]
+        }
+      ]
+    },
+    "grapnel": {
+      "tag": "MARITIME SURVIVAL HARDWARE",
+      "title": "The Grapnel.",
+      "subtitle": "A modular emergency capsule for deep-ocean rescue and crew survival.",
+      "caption": "The Grapnel's reinforced hull can survive extreme pressure; the modular internal layout keeps crew comfortable during extended waits. Legroom: <b>55–60 cm</b> per occupant.",
+      "modules": [
+        {
+          "name": "Communications",
+          "description": "Dual-redundant EPIRB + satphone beacon. Broadcasts distress location, survivor count, and medical status to maritime rescue authorities worldwide."
+        },
+        {
+          "name": "Life Support",
+          "description": "Closed-loop O₂ regeneration system with 72-hour capacity for 4 occupants. CO₂ scrubbing via chemical absorption cartridges, refreshed every 8 hours."
+        },
+        {
+          "name": "Medical Suite",
+          "description": "Integrated trauma kit, defibrillator, and basic surgical supplies. Environmental monitoring for hypoxia, decompression sickness, and thermal stress."
+        },
+        {
+          "name": "Stabilization",
+          "description": "Vectored thrusters + active ballast tanks. Keep the capsule upright and stable during waves. Buoyancy margin: 15% above full crew load."
+        },
+        {
+          "name": "Power & Control",
+          "description": "Redundant battery arrays (solid-state, 144 kWh total). AI core runs full diagnostics and telemetry every 5 seconds. Manual override always available."
+        },
+        {
+          "name": "Comfort & Morale",
+          "description": "Temperature regulation (18–24°C), LED mood lighting, water supply (potable + washdown), and emergency rations. Designed for 72-hour occupancy."
+        }
+      ],
+      "states": {
+        "safe": { "label": "SAFE", "color": "jade" },
+        "warn": { "label": "WARN", "color": "yellow" },
+        "emerg": { "label": "EMERGENCY", "color": "alert" }
+      }
+    },
+    "showcase": {
+      "tag": "OPERATIONAL VARIANTS",
+      "title": "The Fleet.",
+      "subtitle": "Three capsule variants optimized for different vessel types and deployment scenarios.",
+      "variants": [
+        {
+          "name": "Grapnel-1 Standard",
+          "class": "Standard Rescue Capsule",
+          "features": [
+            "4-occupant capacity",
+            "72-hour life support",
+            "Dual EPIRB + satphone",
+            "Thermal regulation",
+            "Stabilization thrusters"
+          ],
+          "status": "safe",
+          "specs": [
+            { "label": "Capacity", "value": "4", "unit": "occupants" },
+            { "label": "Endurance", "value": "72", "unit": "hours" },
+            { "label": "Depth", "value": "3000", "unit": "m" },
+            { "label": "Cost", "value": "$840k", "unit": "" }
+          ]
+        },
+        {
+          "name": "Grapnel-2 Extended",
+          "class": "Extended-Duration Variant",
+          "features": [
+            "6-occupant capacity",
+            "96-hour life support",
+            "Triple redundancy",
+            "Medical suite",
+            "Enhanced power"
+          ],
+          "status": "safe",
+          "specs": [
+            { "label": "Capacity", "value": "6", "unit": "occupants" },
+            { "label": "Endurance", "value": "96", "unit": "hours" },
+            { "label": "Depth", "value": "4200", "unit": "m" },
+            { "label": "Cost", "value": "$1.2M", "unit": "" }
+          ]
+        },
+        {
+          "name": "Grapnel-3 Deep",
+          "class": "Ultra-Deep Research Capsule",
+          "features": [
+            "2-occupant capacity",
+            "120-hour life support",
+            "Reinforced titanium hull",
+            "Scientific instrument bay",
+            "Full redundancy"
+          ],
+          "status": "safe",
+          "specs": [
+            { "label": "Capacity", "value": "2", "unit": "occupants" },
+            { "label": "Endurance", "value": "120", "unit": "hours" },
+            { "label": "Depth", "value": "6000", "unit": "m" },
+            { "label": "Cost", "value": "$2.8M", "unit": "" }
+          ]
+        }
+      ]
+    },
+    "technical": {
+      "tag": "TECHNICAL DEEP-DIVE",
+      "title": "Under the Hood.",
+      "subtitle": "The technology that makes deep-ocean survival possible.",
+      "layers": [
+        {
+          "number": "01",
+          "tag": "MATERIALS",
+          "title": "Hull & Structure",
+          "body": "Grapnel hulls are fabricated from a titanium-steel composite, rated for 6000m depth. External pressure: 600 MPa. Interior maintained at 1 atm via active ballast. Welds inspected via ultrasonic scanning; stress-tested every 18 months."
+        },
+        {
+          "number": "02",
+          "tag": "LIFE SUPPORT",
+          "title": "Atmospheric Regeneration",
+          "body": "Regenerative system combines sodium superoxide cartridges with electrolytic water splitting. Produces O₂ while scrubbing CO₂. Capacity: 72–120 hours depending on variant. Backup mechanical air circulation; redundant sensors monitor O₂/CO₂/N₂."
+        },
+        {
+          "number": "03",
+          "tag": "PROPULSION",
+          "title": "Vectored Thruster Array",
+          "body": "Four hydraulic thrusters (port, starboard, bow, stern) provide full 6-axis control. Depth-pressure compensated actuators; emergency mechanical backup. Fuel: 90 minutes active maneuver time, 5 days idle station-keeping."
+        },
+        {
+          "number": "04",
+          "tag": "POWER",
+          "title": "Solid-State Battery Grid",
+          "body": "144 kWh solid-state battery array. Supports all systems for 72–120 hours at nominal load. Solar charging via external hatch; emergency hand-crank backup. Thermal monitoring + active dissipation prevents runaway."
+        },
+        {
+          "number": "05",
+          "tag": "COMMUNICATIONS",
+          "title": "Redundant Beacon Network",
+          "body": "Dual independent EPIRB units (121.5 MHz + 406 MHz, encrypted). Satellite link via Iridium + Inmarsat for real-time telemetry. Acoustic modem for underwater signaling. Manual distress button triggers all channels simultaneously."
+        }
+      ]
+    },
+    "about": {
+      "tag": "WHO WE ARE",
+      "title": "Building the future of ocean rescue.",
+      "body": "LOOM is a joint initiative between maritime safety innovators, AI researchers, and deep-sea engineering teams. Our mission: compress decades of emergency response expertise into systems that think, act, and save lives when seconds count.",
+      "stats": [
+        { "value": "2018", "label": "Founded" },
+        { "value": "40+", "label": "Engineers" },
+        { "value": "7", "label": "Global Offices" },
+        { "value": "1000+", "label": "Tests" }
+      ],
+      "grapnel_note": {
+        "title": "Why 'Grapnel'?",
+        "body": "A grapnel is a small, versatile anchor — it grips uncertain terrain and holds fast. Our capsule does the same: it grabs the ocean floor, stabilizes under pressure, and becomes a secure refuge when everything else fails."
+      },
+      "timeline": [
+        {
+          "year": "2018",
+          "title": "First Prototype",
+          "body": "Initial Grapnel-1 design validated in deep-tank simulations. Hull integrity confirmed at 3000m equivalent pressure."
+        },
+        {
+          "year": "2019",
+          "title": "AI Core Integration",
+          "body": "Real-time predictive engine trained on 40 years of maritime incident data. System achieves 98.7% early-warning accuracy."
+        },
+        {
+          "year": "2020",
+          "title": "Ocean Trials",
+          "body": "First sea trials off the Norwegian coast. Full 96-hour endurance test with 6 occupants. All systems nominal."
+        },
+        {
+          "year": "2021",
+          "title": "Regulatory Approval",
+          "body": "IMO and DNV GL certification. Grapnel-1 approved for commercial maritime deployment."
+        },
+        {
+          "year": "2022",
+          "title": "Fleet Expansion",
+          "body": "Grapnel-2 Extended and Grapnel-3 Deep variants enter production. First commercial orders from major shipping lines."
+        },
+        {
+          "year": "2024",
+          "title": "Global Rollout",
+          "body": "1000+ capsules deployed across international waters. LOOM AI assists in 12 active rescue operations, 11 successful."
+        }
+      ]
+    }
+  },
+  "footer": {
+    "logo": "LOOM",
+    "tag": "Maritime Emergency Intelligence",
+    "links": [
+      { "text": "System", "page": "system" },
+      { "text": "Grapnel", "page": "grapnel" },
+      { "text": "Showcase", "page": "showcase" },
+      { "text": "Technical", "page": "technical" },
+      { "text": "About", "page": "about" }
+    ],
+    "copyright": "© 2026 LOOM Inc. All rights reserved."
+  }
+}
