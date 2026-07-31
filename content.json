@@ -20,10 +20,10 @@
   },
   "pages": {
     "home": {
-      "tag": "MARITIME EMERGENCY INTELLIGENCE · GEN 4.1",
+      "tag": "MARITIME EMERGENCY INTELLIGENCE",
       "title": "LOOM",
       "subtitle": "AI MARITIME SURVIVAL INTELLIGENCE SYSTEM",
-      "tagline": "Predict. Protect. <b>Survive.</b>",
+      "tagline": "Build beyond <b>Rescue.</b>",
       "buttons": [
         { "text": "Explore the System", "type": "primary" },
         { "text": "Meet the Grapnel", "type": "ghost" }
