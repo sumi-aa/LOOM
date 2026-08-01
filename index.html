@@ -1398,8 +1398,18 @@ function applyContent(){
       if (!isNaN(i) && typeof vals[i] === 'string') val = vals[i];
     }
     if (typeof val !== 'string') return;
-    if (el.hasAttribute('data-letters')) splitLetters(el, val);
-    else if (val !== el.innerHTML) el.innerHTML = val;
+    if (el.hasAttribute('data-letters')) { splitLetters(el, val); return; }
+    if (val !== el.innerHTML) el.innerHTML = val;
+    /* Animated stats: re-derive the count target from the text you typed,
+       e.g. "2,400+" -> counts to 2400 with a "+" suffix. */
+    if (el.hasAttribute('data-count')) {
+      const m = el.textContent.trim().match(/^(.*?)([\d,]+(?:\.\d+)?)(.*)$/);
+      if (m) {
+        el.dataset.count = m[2].replace(/,/g, '');
+        el.dataset.pre = m[1];
+        el.dataset.suf = m[3];
+      }
+    }
   });
 }
 fetch('content.json?v=' + Date.now())
