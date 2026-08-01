@@ -1,335 +1,351 @@
 {
-  "meta": {
-    "title": "LOOM — Maritime Survival Intelligence",
-    "description": "AI Maritime Survival Intelligence System"
-  },
   "boot": {
-    "logo": "LOOM",
-    "subtitle": "descending to operating depth"
+    "loom": "LOOM",
+    "descending_to_operating_depth": "Descending to operating depth"
+  },
+  "transition": {
+    "navigating": "Navigating"
+  },
+  "ui": {
+    "dive_depth": "Dive depth",
+    "surface": "<b>▲</b>SURFACE"
   },
   "nav": {
-    "logo": "LOOM",
-    "links": [
-      { "text": "System", "page": "system" },
-      { "text": "Grapnel", "page": "grapnel" },
-      { "text": "Showcase", "page": "showcase" },
-      { "text": "Technical", "page": "technical" },
-      { "text": "About", "page": "about" }
-    ],
-    "cta": "Explore"
+    "home": "Home",
+    "system": "System",
+    "grapnel_capsule": "Grapnel Capsule",
+    "showcase": "Showcase",
+    "ai_tech": "AI Tech",
+    "about_loom": "About LOOM"
   },
-  "pages": {
-    "home": {
-      "tag": "MARITIME EMERGENCY INTELLIGENCE",
-      "title": "LOOM",
-      "subtitle": "AI MARITIME SURVIVAL INTELLIGENCE SYSTEM",
-      "tagline": "Build beyond <b>Rescue.</b>",
-      "buttons": [
-        { "text": "Explore the System", "type": "primary" },
-        { "text": "Meet the Grapnel", "type": "ghost" }
-      ],
-      "problems": {
-        "title": "The Challenge.",
-        "items": [
-          { "number": "60", "label": "Minutes" },
-          { "number": "4000+", "label": "Square Miles" },
-          { "number": "85%", "label": "Success Rate Gap" }
-        ],
-        "closing": "We don't have enough <em>time</em>, enough <em>sight</em>, or enough <em>intelligence</em>."
-      },
-      "overview": {
-        "title": "How LOOM works.",
-        "subtitle": "Five integrated layers working in concert — from sensor data to rescue coordination, in under one second.",
-        "cards": [
-          {
-            "icon": "sensor",
-            "title": "Digital Twin Ship",
-            "body": "Every vessel running LOOM hosts a real-time digital mirror of its physical state. Sensors are embedded throughout the ship, tracking structural, environmental, and biological conditions simultaneously."
-          },
-          {
-            "icon": "brain",
-            "title": "Predictive Intelligence",
-            "body": "Real-time sensor feeds power a predictive AI engine that forecasts emergency states before they escalate, giving crews precious minutes to respond."
-          },
-          {
-            "icon": "map",
-            "title": "Spatial Awareness",
-            "body": "LOOM maps the vessel's state in 3D, pinpointing critical zones and optimizing evacuation routes. The system understands every corridor, hatch, and compartment."
-          },
-          {
-            "icon": "radio",
-            "title": "Autonomous Coordination",
-            "body": "On distress trigger, LOOM broadcasts your exact location, vessel state, survivor count, and recommended rescue approach to all nearby surface and air assets."
-          },
-          {
-            "icon": "beacon",
-            "title": "Continuous Adaptation",
-            "body": "As conditions evolve, LOOM recalculates rescue windows and broadcasts updated coordinates. No silent failures — crews always know the system is thinking."
-          },
-          {
-            "icon": "link",
-            "title": "Human-in-the-Loop",
-            "body": "LOOM advises; humans decide. Every critical action is presented with confidence scores, alternatives, and the raw data crew members need to override."
-          }
-        ]
-      },
-      "transition": "The hardware foundation."
-    },
-    "system": {
-      "tag": "SYSTEM ARCHITECTURE",
-      "title": "How LOOM <em>works.</em>",
-      "subtitle": "Five integrated layers working in concert — from sensor data to rescue coordination, in under one second.",
-      "layers": [
-        {
-          "number": "01",
-          "tag": "LAYER 01",
-          "title": "Digital Twin Ship",
-          "body": "Every vessel running LOOM hosts a real-time digital mirror of its physical state. Sensors are embedded throughout the ship, tracking structural, environmental, and biological conditions simultaneously.",
-          "metrics": [
-            { "label": "Sensors", "value": "847", "suffix": "active" },
-            { "label": "Refresh", "value": "120", "suffix": "Hz" },
-            { "label": "Latency", "value": "<2", "suffix": "ms" }
-          ]
-        },
-        {
-          "number": "02",
-          "tag": "LAYER 02",
-          "title": "Predictive Intelligence",
-          "body": "Real-time sensor feeds power a predictive AI engine that forecasts emergency states before they escalate, giving crews precious minutes to respond.",
-          "metrics": [
-            { "label": "Accuracy", "value": "98.7", "suffix": "%" },
-            { "label": "Lookhead", "value": "12", "suffix": "min" },
-            { "label": "Models", "value": "42", "suffix": "active" }
-          ]
-        },
-        {
-          "number": "03",
-          "tag": "LAYER 03",
-          "title": "Spatial Awareness",
-          "body": "LOOM maps the vessel's state in 3D, pinpointing critical zones and optimizing evacuation routes. The system understands every corridor, hatch, and compartment.",
-          "metrics": [
-            { "label": "Coverage", "value": "100", "suffix": "%" },
-            { "label": "Zones", "value": "156", "suffix": "mapped" },
-            { "label": "Routes", "value": "1247", "suffix": "calculated" }
-          ]
-        },
-        {
-          "number": "04",
-          "tag": "LAYER 04",
-          "title": "Autonomous Coordination",
-          "body": "On distress trigger, LOOM broadcasts your exact location, vessel state, survivor count, and recommended rescue approach to all nearby surface and air assets.",
-          "metrics": [
-            { "label": "Broadcast", "value": "7", "suffix": "channels" },
-            { "label": "Range", "value": "2000", "suffix": "km" },
-            { "label": "Assets", "value": "Real-time" }
-          ]
-        },
-        {
-          "number": "05",
-          "tag": "LAYER 05",
-          "title": "Continuous Adaptation",
-          "body": "As conditions evolve, LOOM recalculates rescue windows and broadcasts updated coordinates. No silent failures — crews always know the system is thinking.",
-          "metrics": [
-            { "label": "Recalc", "value": "2.5s", "suffix": "interval" },
-            { "label": "Confidence", "value": "Live", "suffix": "scoring" },
-            { "label": "Uptime", "value": "99.99", "suffix": "%" }
-          ]
-        }
-      ]
-    },
-    "grapnel": {
-      "tag": "MARITIME SURVIVAL HARDWARE",
-      "title": "The Grapnel.",
-      "subtitle": "A modular emergency capsule for deep-ocean rescue and crew survival.",
-      "caption": "The Grapnel's reinforced hull can survive extreme pressure; the modular internal layout keeps crew comfortable during extended waits. Legroom: <b>55–60 cm</b> per occupant.",
-      "modules": [
-        {
-          "name": "Communications",
-          "description": "Dual-redundant EPIRB + satphone beacon. Broadcasts distress location, survivor count, and medical status to maritime rescue authorities worldwide."
-        },
-        {
-          "name": "Life Support",
-          "description": "Closed-loop O₂ regeneration system with 72-hour capacity for 4 occupants. CO₂ scrubbing via chemical absorption cartridges, refreshed every 8 hours."
-        },
-        {
-          "name": "Medical Suite",
-          "description": "Integrated trauma kit, defibrillator, and basic surgical supplies. Environmental monitoring for hypoxia, decompression sickness, and thermal stress."
-        },
-        {
-          "name": "Stabilization",
-          "description": "Vectored thrusters + active ballast tanks. Keep the capsule upright and stable during waves. Buoyancy margin: 15% above full crew load."
-        },
-        {
-          "name": "Power & Control",
-          "description": "Redundant battery arrays (solid-state, 144 kWh total). AI core runs full diagnostics and telemetry every 5 seconds. Manual override always available."
-        },
-        {
-          "name": "Comfort & Morale",
-          "description": "Temperature regulation (18–24°C), LED mood lighting, water supply (potable + washdown), and emergency rations. Designed for 72-hour occupancy."
-        }
-      ],
-      "states": {
-        "safe": { "label": "SAFE", "color": "jade" },
-        "warn": { "label": "WARN", "color": "yellow" },
-        "emerg": { "label": "EMERGENCY", "color": "alert" }
-      }
-    },
-    "showcase": {
-      "tag": "OPERATIONAL VARIANTS",
-      "title": "The Fleet.",
-      "subtitle": "Three capsule variants optimized for different vessel types and deployment scenarios.",
-      "variants": [
-        {
-          "name": "Grapnel-1 Standard",
-          "class": "Standard Rescue Capsule",
-          "features": [
-            "4-occupant capacity",
-            "72-hour life support",
-            "Dual EPIRB + satphone",
-            "Thermal regulation",
-            "Stabilization thrusters"
-          ],
-          "status": "safe",
-          "specs": [
-            { "label": "Capacity", "value": "4", "unit": "occupants" },
-            { "label": "Endurance", "value": "72", "unit": "hours" },
-            { "label": "Depth", "value": "3000", "unit": "m" },
-            { "label": "Cost", "value": "$840k", "unit": "" }
-          ]
-        },
-        {
-          "name": "Grapnel-2 Extended",
-          "class": "Extended-Duration Variant",
-          "features": [
-            "6-occupant capacity",
-            "96-hour life support",
-            "Triple redundancy",
-            "Medical suite",
-            "Enhanced power"
-          ],
-          "status": "safe",
-          "specs": [
-            { "label": "Capacity", "value": "6", "unit": "occupants" },
-            { "label": "Endurance", "value": "96", "unit": "hours" },
-            { "label": "Depth", "value": "4200", "unit": "m" },
-            { "label": "Cost", "value": "$1.2M", "unit": "" }
-          ]
-        },
-        {
-          "name": "Grapnel-3 Deep",
-          "class": "Ultra-Deep Research Capsule",
-          "features": [
-            "2-occupant capacity",
-            "120-hour life support",
-            "Reinforced titanium hull",
-            "Scientific instrument bay",
-            "Full redundancy"
-          ],
-          "status": "safe",
-          "specs": [
-            { "label": "Capacity", "value": "2", "unit": "occupants" },
-            { "label": "Endurance", "value": "120", "unit": "hours" },
-            { "label": "Depth", "value": "6000", "unit": "m" },
-            { "label": "Cost", "value": "$2.8M", "unit": "" }
-          ]
-        }
-      ]
-    },
-    "technical": {
-      "tag": "TECHNICAL DEEP-DIVE",
-      "title": "Under the Hood.",
-      "subtitle": "The technology that makes deep-ocean survival possible.",
-      "layers": [
-        {
-          "number": "01",
-          "tag": "MATERIALS",
-          "title": "Hull & Structure",
-          "body": "Grapnel hulls are fabricated from a titanium-steel composite, rated for 6000m depth. External pressure: 600 MPa. Interior maintained at 1 atm via active ballast. Welds inspected via ultrasonic scanning; stress-tested every 18 months."
-        },
-        {
-          "number": "02",
-          "tag": "LIFE SUPPORT",
-          "title": "Atmospheric Regeneration",
-          "body": "Regenerative system combines sodium superoxide cartridges with electrolytic water splitting. Produces O₂ while scrubbing CO₂. Capacity: 72–120 hours depending on variant. Backup mechanical air circulation; redundant sensors monitor O₂/CO₂/N₂."
-        },
-        {
-          "number": "03",
-          "tag": "PROPULSION",
-          "title": "Vectored Thruster Array",
-          "body": "Four hydraulic thrusters (port, starboard, bow, stern) provide full 6-axis control. Depth-pressure compensated actuators; emergency mechanical backup. Fuel: 90 minutes active maneuver time, 5 days idle station-keeping."
-        },
-        {
-          "number": "04",
-          "tag": "POWER",
-          "title": "Solid-State Battery Grid",
-          "body": "144 kWh solid-state battery array. Supports all systems for 72–120 hours at nominal load. Solar charging via external hatch; emergency hand-crank backup. Thermal monitoring + active dissipation prevents runaway."
-        },
-        {
-          "number": "05",
-          "tag": "COMMUNICATIONS",
-          "title": "Redundant Beacon Network",
-          "body": "Dual independent EPIRB units (121.5 MHz + 406 MHz, encrypted). Satellite link via Iridium + Inmarsat for real-time telemetry. Acoustic modem for underwater signaling. Manual distress button triggers all channels simultaneously."
-        }
-      ]
-    },
-    "about": {
-      "tag": "WHO WE ARE",
-      "title": "Building the future of ocean rescue.",
-      "body": "LOOM is a joint initiative between maritime safety innovators, AI researchers, and deep-sea engineering teams. Our mission: compress decades of emergency response expertise into systems that think, act, and save lives when seconds count.",
-      "stats": [
-        { "value": "2018", "label": "Founded" },
-        { "value": "40+", "label": "Engineers" },
-        { "value": "7", "label": "Global Offices" },
-        { "value": "1000+", "label": "Tests" }
-      ],
-      "grapnel_note": {
-        "title": "Why 'Grapnel'?",
-        "body": "A grapnel is a small, versatile anchor — it grips uncertain terrain and holds fast. Our capsule does the same: it grabs the ocean floor, stabilizes under pressure, and becomes a secure refuge when everything else fails."
-      },
-      "timeline": [
-        {
-          "year": "2018",
-          "title": "First Prototype",
-          "body": "Initial Grapnel-1 design validated in deep-tank simulations. Hull integrity confirmed at 3000m equivalent pressure."
-        },
-        {
-          "year": "2019",
-          "title": "AI Core Integration",
-          "body": "Real-time predictive engine trained on 40 years of maritime incident data. System achieves 98.7% early-warning accuracy."
-        },
-        {
-          "year": "2020",
-          "title": "Ocean Trials",
-          "body": "First sea trials off the Norwegian coast. Full 96-hour endurance test with 6 occupants. All systems nominal."
-        },
-        {
-          "year": "2021",
-          "title": "Regulatory Approval",
-          "body": "IMO and DNV GL certification. Grapnel-1 approved for commercial maritime deployment."
-        },
-        {
-          "year": "2022",
-          "title": "Fleet Expansion",
-          "body": "Grapnel-2 Extended and Grapnel-3 Deep variants enter production. First commercial orders from major shipping lines."
-        },
-        {
-          "year": "2024",
-          "title": "Global Rollout",
-          "body": "1000+ capsules deployed across international waters. LOOM AI assists in 12 active rescue operations, 11 successful."
-        }
-      ]
-    }
+  "home": {
+    "maritime_emergency_intelligence": "Maritime Emergency Intelligence",
+    "loom": "LOOM",
+    "ai_maritime_survival_intelligence": "AI Maritime Survival Intelligence System",
+    "predict_protect_survive": "Build beyond <b>Rescue.</b>",
+    "explore_the_system": "<span class=\"btn-t\">Explore the System</span><span class=\"arr\">→</span>",
+    "meet_the_grapnel": "<span class=\"btn-t\">Meet the Grapnel</span><span class=\"arr\">→</span>",
+    "n_41_53_w_087_37_surface_level_0m": "N 41°53′ / W 087°37′ · SURFACE LEVEL 0M",
+    "mayday": "Mayday",
+    "the_problem": "The Problem",
+    "maritime_disasters_claim_lives": "Maritime disasters claim lives because systems aren't <em>fast enough.</em>",
+    "73": "73%",
+    "avoidable_casualties": "Avoidable Casualties",
+    "the_majority_of_maritime": "The majority of maritime fatalities occur due to delayed evacuation decisions — not the disaster itself.",
+    "8": "8+",
+    "minutes_lost": "Minutes Lost",
+    "average_human_decision_time_under": "Average human decision time under panic conditions. LOOM acts in under 340 milliseconds.",
+    "0": "0",
+    "predictive_systems": "Predictive Systems",
+    "current_maritime_safety_systems": "Current maritime safety systems react to emergencies. None predict and prevent them before they escalate.",
+    "loom_transforms_reaction_into": "LOOM transforms <em class=\"text-coral\">reaction</em> into <em class=\"grad-text\">prediction.</em>",
+    "systems": "Systems",
+    "core_systems": "Core Systems",
+    "four_pillars_of_intelligent": "Four pillars of <em>intelligent survival.</em>",
+    "ship_ai_detection_system": "Ship AI Detection System",
+    "a_distributed_network_of_smart": "A distributed network of smart sensors across every deck, compartment, and corridor — continuously feeding data into LOOM's central AI. Smoke, fire, stress, and passenger density are monitored in real time.",
+    "real_time_risk_prediction_engine": "Real-time Risk Prediction Engine",
+    "loom_s_ai_core_processes_thousands": "LOOM's AI core processes thousands of sensor inputs per second, cross-referencing historical disaster data to assess and predict risk escalation before it becomes critical.",
+    "grapnel_survival_capsules": "GRAPNEL Survival Capsules",
+    "autonomous_survival_pods_equipped": "Autonomous survival pods equipped with their own micro-AI, life support, health monitoring, and EPIRB emergency signaling. Each GRAPNEL operates independently of ship power and the central system.",
+    "global_rescue_intelligence_network": "Global Rescue Intelligence Network",
+    "loom_integrates_with_global": "LOOM integrates with global maritime rescue coordination, transmitting capsule GPS positions, drift projections, and passenger health data to the nearest response teams the moment emergency is declared.",
+    "every_second_matters_loom_turns": "Every second matters. <span>LOOM turns time into survival.</span>"
+  },
+  "system": {
+    "system_architecture": "System Architecture",
+    "how_loom_works": "How LOOM <em>works.</em>",
+    "five_integrated_layers_working_in": "Five integrated layers working in concert — from sensor data to rescue coordination, in under one second.",
+    "01": "01",
+    "layer_01": "Layer 01",
+    "digital_twin_ship": "Digital Twin Ship",
+    "every_vessel_running_loom_hosts_a": "Every vessel running LOOM hosts a real-time digital mirror of its physical state. Sensors are embedded throughout the ship, tracking structural, environmental, and biological conditions simultaneously.",
+    "continuous_environmental_awareness": "Continuous Environmental Awareness",
+    "the_digital_twin_isn_t_a_static": "The digital twin isn't a static model — it's a living replica. Every sensor update reshapes the ship's virtual state in under 20ms, giving LOOM's AI a constantly accurate picture of conditions across all decks.",
+    "passengers_carry_embedded": "Passengers carry embedded wristband sensors that report position, movement pattern, and basic biometrics, enabling LOOM to simulate evacuation flow and identify congestion before it forms.",
+    "2_400": "2,400+",
+    "sensors_per_vessel": "Sensors per vessel",
+    "20ms": "20ms",
+    "update_latency": "Update latency",
+    "02": "02",
+    "layer_02": "Layer 02",
+    "ai_core_engine": "AI Core Engine",
+    "raw_sensor_data_is_meaningless": "Raw sensor data is meaningless without intelligence. LOOM's onboard AI core processes and classifies every input, assigning ship-wide risk levels in real time.",
+    "input": "Input",
+    "sensor_data_stream": "Sensor Data Stream",
+    "process": "Process",
+    "ai_neural_core": "AI Neural Core",
+    "classify": "Classify",
+    "risk_assessment": "Risk Assessment",
+    "output": "Output",
+    "system_response": "System Response",
+    "03": "03",
+    "layer_03": "Layer 03",
+    "prediction_system": "Prediction System",
+    "loom_doesn_t_wait_for_disaster_it": "LOOM doesn't wait for disaster — it predicts it. Using physics-based simulation and historical incident data, LOOM projects future conditions and pre-positions survival resources accordingly.",
+    "04": "04",
+    "layer_04": "Layer 04",
+    "evacuation_logic": "Evacuation Logic",
+    "when_loom_declares_an_emergency_it": "When LOOM declares an emergency, it doesn't just sound alarms — it choreographs the entire evacuation with precision that no human crew could match under pressure.",
+    "01_2": "01",
+    "passenger_capsule_assignment": "Passenger-Capsule Assignment",
+    "loom_assigns_each_passenger_to": "LOOM assigns each passenger to their optimal GRAPNEL capsule based on proximity, capsule capacity, mobility requirements, and medical conditions.",
+    "02_2": "02",
+    "safe_route_calculation": "Safe Route Calculation",
+    "real_time_pathfinding_generates": "Real-time pathfinding generates personalized evacuation routes for every passenger, recalculated every 2 seconds as conditions change.",
+    "03_2": "03",
+    "priority_health_override": "Priority Health Override",
+    "passengers_flagged_with_cardiac": "Passengers flagged with cardiac conditions, mobility limitations, or elevated stress are given priority routing and dedicated crew escort.",
+    "04_2": "04",
+    "capsule_pre_launch_preparation": "Capsule Pre-Launch Preparation",
+    "assigned_grapnel_capsules_activate": "Assigned GRAPNEL capsules activate their life support, verify seal integrity, and confirm readiness before passengers arrive.",
+    "05": "05",
+    "layer_05": "Layer 05",
+    "global_rescue_intelligence_network": "Global Rescue Intelligence Network",
+    "once_capsules_are_deployed_loom": "Once capsules are deployed, LOOM continues operating. The Global Rescue Network ensures every capsule is found — and every passenger aboard it reaches safety.",
+    "epirb_emergency_beacon": "EPIRB Emergency Beacon",
+    "each_grapnel_carries_an_epirb_that": "Each GRAPNEL carries an EPIRB that activates automatically on water contact, broadcasting a unique distress signal on international emergency frequencies.",
+    "drift_prediction_rescue": "Drift Prediction & Rescue Coordination",
+    "loom_transmits_ocean_current_data": "LOOM transmits ocean current data, weather projections, and capsule drift models directly to rescue coordination centers, enabling helicopters and vessels to intercept capsules precisely."
+  },
+  "grapnel": {
+    "grapnel": "Grapnel",
+    "autonomous_survival_technology": "Autonomous Survival Technology",
+    "the_grapnel_capsule": "The Grapnel <em>Capsule</em>",
+    "a_self_contained_survival_vessel": "A self-contained survival vessel engineered to operate completely independently. Hover the labels to explore each system — press a state to run the capsule simulation.",
+    "internal_view_section_cut": "Internal view — section cut",
+    "01_life_support": "01 · Life Support",
+    "o_tanks_co_scrubbing_air": "O₂ tanks · CO₂ scrubbing · Air circulation · Temperature control",
+    "03_utility_pillar_micro_ai": "03 · Utility Pillar — Micro AI",
+    "ai_computer_status_console": "AI computer · Status console · Controls · Medical kit storage",
+    "05_comm_system": "05 · Comm System",
+    "wireless_uplink_location_relay": "Wireless uplink · Location relay · Health & status signals",
+    "06_epirb_beacon": "06 · EPIRB Beacon",
+    "auto_manual_trigger_406_mhz": "Auto + manual trigger · 406 MHz distress · Rescue link",
+    "02_health_monitoring": "02 · Health Monitoring",
+    "seat_biometrics_heart_rate_stress": "Seat biometrics · Heart rate · Stress detection · Alerts",
+    "04_stabilization": "04 · Stabilization",
+    "gyro_thrusters_ballast_control": "Gyro thrusters · Ballast control · Self-righting hull",
+    "all_heavy_components_sit_low_and": "All heavy components sit <b>low and central</b> — for maximum stability and self-righting capability in open sea.",
+    "capsule_state_system": "Capsule State System",
+    "press_a_state_to_run_the_capsule": "Press a state to run the capsule simulation",
+    "safe_mode": "<i class=\"sd\"></i>SAFE MODE",
+    "warning_mode": "<i class=\"sd\"></i>WARNING MODE",
+    "emergency_mode": "<i class=\"sd\"></i>EMERGENCY MODE",
+    "status_all_systems_nominal_life": "STATUS: ALL SYSTEMS NOMINAL · LIFE SUPPORT ACTIVE",
+    "internal_systems_breakdown": "Internal Systems Breakdown",
+    "six_modules_one_mission": "Six modules. <em>One mission.</em>",
+    "module_01": "Module 01",
+    "life_support": "Life Support",
+    "internal_temperature_regulation": "Internal temperature regulation",
+    "forced_air_circulation_fans": "Forced-air circulation fans",
+    "oxygen_monitoring_regulation": "Oxygen monitoring & regulation",
+    "led_environmental_status_array": "LED environmental status array",
+    "maintains_a_safe_internal": "Maintains a safe internal environment autonomously, regardless of external conditions.",
+    "module_02": "Module 02",
+    "health_monitoring": "Health Monitoring",
+    "continuous_heart_rate_sensing": "Continuous heart rate sensing",
+    "galvanic_skin_stress_detection": "Galvanic skin stress detection",
+    "medical_alert_flagging": "Medical alert flagging",
+    "data_relay_to_rescue_services": "Data relay to rescue services",
+    "monitors_every_passenger_s": "Monitors every passenger's condition from deployment to rescue — no medical staff required.",
+    "module_03": "Module 03",
+    "micro_ai_core": "Micro AI Core",
+    "embedded_neural_processor": "Embedded neural processor",
+    "8ms_inference_response_time": "8ms inference response time",
+    "independent_of_ship_ai": "Independent of ship AI",
+    "self_calibrating_decision_logic": "Self-calibrating decision logic",
+    "the_capsule_thinks_for_itself_even": "The capsule thinks for itself. Even if ship systems fail, the GRAPNEL's AI continues operating.",
+    "module_04": "Module 04",
+    "stabilization": "Stabilization",
+    "3_axis_gyroscopic_stabilizer": "3-axis gyroscopic stabilizer",
+    "dynamic_ballast_control": "Dynamic ballast control",
+    "wave_motion_compensation": "Wave motion compensation",
+    "anti_capsize_logic": "Anti-capsize logic",
+    "keeps_occupants_upright_and": "Keeps occupants upright and oriented regardless of sea state, preventing secondary injuries.",
+    "module_05": "Module 05",
+    "communication_system": "Communication System",
+    "esp8266_lora_wireless_module": "ESP8266 / LoRa wireless module",
+    "real_time_gps_position_relay": "Real-time GPS position relay",
+    "passenger_health_broadcast": "Passenger health broadcast",
+    "emergency_sos_transmission": "Emergency SOS transmission",
+    "continuously_transmits_capsule": "Continuously transmits capsule status to rescue coordinators and the LOOM network.",
+    "module_06": "Module 06",
+    "epirb_emergency_system": "EPIRB Emergency System",
+    "406_mhz_cospas_sarsat_beacon": "406 MHz Cospas-Sarsat beacon",
+    "auto_activates_on_water_contact": "Auto-activates on water contact",
+    "manual_override_trigger": "Manual override trigger",
+    "global_distress_relay_network": "Global distress relay network",
+    "the_final_lifeline_guaranteed_to": "The final lifeline. Guaranteed to reach rescue authorities regardless of where on Earth the capsule drifts."
+  },
+  "showcase": {
+    "the_fleet": "The Fleet",
+    "grapnel_product_line": "Grapnel Product Line",
+    "capsule_showcase": "Capsule <em>Showcase</em>",
+    "three_capsule_variants_engineered": "Three capsule variants, engineered for different vessel classes and passenger requirements.",
+    "grapnel_c1": "Grapnel C1",
+    "standard_maritime_6_person": "Standard Maritime · 6-Person Capacity",
+    "operational_safe": "OPERATIONAL — SAFE",
+    "6_person_rated_pressure_sealed": "6-person rated pressure-sealed hull",
+    "72_hour_life_support_autonomy": "72-hour life support autonomy",
+    "basic_health_monitoring_heart_rate": "Basic health monitoring (heart rate)",
+    "full_micro_ai_core_v3_2": "Full Micro AI Core v3.2",
+    "2_axis_gyroscopic_stabilization": "2-axis gyroscopic stabilization",
+    "epirb_mk_iv_integrated_beacon": "EPIRB Mk.IV integrated beacon",
+    "led_external_identification_arrays": "LED external identification arrays",
+    "view_capsule_details": "<span class=\"btn-t\">View Capsule Details</span><span class=\"arr\">→</span>",
+    "flagship": "FLAGSHIP",
+    "grapnel_c2": "Grapnel C2",
+    "advanced_maritime_12_person": "Advanced Maritime · 12-Person Capacity",
+    "simulation_warning": "SIMULATION — WARNING",
+    "12_person_rated_reinforced": "12-person rated reinforced composite hull",
+    "120_hour_extended_life_support": "120-hour extended life support",
+    "full_biometric_health_suite": "Full biometric health suite",
+    "micro_ai_core_v4_1_with_redundancy": "Micro AI Core v4.1 with redundancy",
+    "3_axis_full_gyroscopic": "3-axis full gyroscopic stabilization",
+    "dual_epirb_satellite_uplink": "Dual EPIRB + satellite uplink",
+    "integrated_thermal_management": "Integrated thermal management",
+    "passenger_communication_panel": "Passenger communication panel",
+    "view_capsule_details_2": "<span class=\"btn-t\">View Capsule Details</span><span class=\"arr\">→</span>",
+    "grapnel_c3": "Grapnel C3",
+    "expedition_class_20_person": "Expedition-Class · 20-Person Capacity",
+    "operational_safe_2": "OPERATIONAL — SAFE",
+    "20_person_military_grade_sealed": "20-person military-grade sealed hull",
+    "168_hour_life_support_with": "168-hour life support with reserves",
+    "advanced_icu_grade_health": "Advanced ICU-grade health monitoring",
+    "micro_ai_core_v5_0_fully": "Micro AI Core v5.0 — fully autonomous",
+    "active_4_axis_dynamic": "Active 4-axis dynamic stabilization",
+    "triple_redundant_epirb_system": "Triple redundant EPIRB system",
+    "solar_auxiliary_power_array": "Solar auxiliary power array",
+    "integrated_medical_supply_module": "Integrated medical supply module",
+    "emergency_propulsion_system_2": "Emergency propulsion system (2 knots)",
+    "view_capsule_details_3": "<span class=\"btn-t\">View Capsule Details</span><span class=\"arr\">→</span>",
+    "capacity_range": "Capacity Range",
+    "6_20": "6–20",
+    "passengers": "passengers",
+    "max_autonomy": "Max Autonomy",
+    "168h": "168h",
+    "life_support": "life support",
+    "ai_response": "AI Response",
+    "8ms": "8ms",
+    "local_inference": "local inference",
+    "distress_range": "Distress Range",
+    "global": "Global",
+    "epirb_coverage": "EPIRB coverage"
+  },
+  "technical": {
+    "neural": "Neural",
+    "technical_intelligence": "Technical Intelligence",
+    "the_ai_behind_loom": "The AI behind <em>LOOM</em>",
+    "five_technical_layers_from_raw": "Five technical layers, from raw data ingestion to global rescue coordination — each engineered for reliability under extreme conditions.",
+    "01": "01",
+    "layer_01_data_streaming": "Layer 01 · Data Streaming",
+    "data_streaming_layer": "Data Streaming Layer",
+    "all_ship_sensors_publish_to_a_real": "All ship sensors publish to a real-time message bus using a low-latency pub/sub architecture. LOOM's data pipeline ingests up to 2,400 concurrent sensor streams, normalizes heterogeneous formats, and routes data to the AI core with sub-20ms end-to-end latency.",
+    "mqtt_broker": "MQTT Broker",
+    "time_series_db": "Time-series DB",
+    "edge_preprocessing": "Edge Preprocessing",
+    "anomaly_detector": "Anomaly Detector",
+    "data_fusion_engine": "Data Fusion Engine",
+    "2_400": "2,400",
+    "concurrent_streams": "Concurrent streams",
+    "20ms": "<20ms",
+    "ingestion_latency": "Ingestion latency",
+    "99_97": "99.97%",
+    "data_availability": "Data availability",
+    "02": "02",
+    "layer_02_risk_assessment": "Layer 02 · Risk Assessment",
+    "ai_risk_assessment_engine": "AI Risk Assessment Engine",
+    "loom_s_risk_engine_uses_a_hybrid": "LOOM's risk engine uses a hybrid model combining a gradient-boosted classifier for fast pattern matching with a physics-informed neural network for deep situational modeling. Trained on 40+ years of maritime incident records, the engine outputs a composite risk score every 340 milliseconds.",
+    "gbm_classifier": "GBM Classifier",
+    "pinn_risk_model": "PINN Risk Model",
+    "ensemble_voting": "Ensemble Voting",
+    "confidence_scoring": "Confidence Scoring",
+    "340ms": "340ms",
+    "risk_cycle_time": "Risk cycle time",
+    "97_4": "97.4%",
+    "classification_accuracy": "Classification accuracy",
+    "40yr": "40yr",
+    "training_data_span": "Training data span",
+    "03": "03",
+    "layer_03_prediction": "Layer 03 · Prediction",
+    "prediction_simulation_system": "Prediction Simulation System",
+    "loom_runs_a_continuous_monte_carlo": "LOOM runs a continuous Monte Carlo simulation of potential disaster scenarios, projecting 60 seconds into the future at 10-second intervals. Fire propagation uses cellular automata on a volumetric ship model. Passenger flow uses agent-based simulation with real-time position seeding.",
+    "monte_carlo_engine": "Monte Carlo Engine",
+    "fire_ca_model": "Fire CA Model",
+    "agent_based_flow": "Agent-Based Flow",
+    "structural_fem": "Structural FEM",
+    "60_second_horizon": "60-Second Horizon",
+    "60s": "60s",
+    "prediction_horizon": "Prediction horizon",
+    "10_000": "10,000+",
+    "scenarios_cycle": "Scenarios/cycle",
+    "04": "04",
+    "layer_04_capsule_ai": "Layer 04 · Capsule AI",
+    "capsule_local_ai_system": "Capsule Local AI System",
+    "each_grapnel_capsule_s_micro_ai": "Each GRAPNEL capsule's Micro AI Core runs a quantized model on a dedicated embedded processor. The local model handles life support regulation, health monitoring decisions, and emergency signaling without any network connectivity — designed to function even in complete communication blackout conditions.",
+    "quantized_tensorflow_lite": "Quantized TensorFlow Lite",
+    "embedded_arm_cortex": "Embedded ARM Cortex",
+    "offline_inference": "Offline Inference",
+    "watchdog_failsafe": "Watchdog Failsafe",
+    "8ms": "8ms",
+    "local_inference": "Local inference",
+    "0": "0",
+    "external_dependencies": "External dependencies",
+    "72h": "72h+",
+    "battery_runtime": "Battery runtime",
+    "05": "05",
+    "layer_05_rescue": "Layer 05 · Rescue",
+    "global_rescue_coordination_system": "Global Rescue Coordination System",
+    "loom_s_rescue_coordination_layer": "LOOM's rescue coordination layer integrates with maritime rescue coordination centers (MRCCs) via standardized API, transmitting capsule telemetry, passenger manifests, health summaries, and drift projections in real time. Compatible with all major SAR coordination platforms globally.",
+    "mrcc_api_bridge": "MRCC API Bridge",
+    "amver_integration": "AMVER Integration",
+    "ais_transponder": "AIS Transponder",
+    "sar_data_format": "SAR Data Format",
+    "cospas_sarsat_link": "Cospas-Sarsat Link",
+    "global": "Global",
+    "sar_coverage": "SAR coverage",
+    "90s": "<90s",
+    "alert_to_mrcc_time": "Alert-to-MRCC time"
+  },
+  "about": {
+    "mission": "Mission",
+    "about": "About",
+    "built_to_ensure_no_one_is_left": "Built to ensure no one is <em>left behind</em> at sea.",
+    "loom_is_not_a_safety_system_that": "LOOM is not a safety system that reacts to disasters. It is an intelligence platform that prevents them — and when prevention is not possible, ensures everyone survives.",
+    "mission_2": "Mission",
+    "why_loom_exists": "Why LOOM <em>exists.</em>",
+    "the_maritime_industry_moves_90_of": "The maritime industry moves 90% of the world's cargo and carries hundreds of millions of passengers annually. Yet the systems protecting human lives aboard vessels have not fundamentally changed in decades.",
+    "alarm_bells_fire_doors_and": "Alarm bells, fire doors, and lifeboat drills are reactive tools designed for a pre-AI world. Human coordination under panic is slow, inconsistent, and often catastrophic. LOOM changes that equation entirely.",
+    "by_embedding_intelligence_directly": "By embedding intelligence directly into the vessel and into every survival capsule, LOOM creates a system that is faster, more accurate, and more reliable than any human team — working autonomously and relentlessly from the first sensor anomaly to the final rescue confirmation.",
+    "340ms": "340ms",
+    "ai_response_time": "AI response time",
+    "168h": "168h",
+    "max_capsule_autonomy": "Max capsule autonomy",
+    "global": "Global",
+    "rescue_coverage": "Rescue coverage",
+    "sensor_network_deployment": "Sensor Network Deployment",
+    "2_400_smart_sensors_installed": "2,400+ smart sensors installed across the vessel, creating complete environmental awareness in under 20 milliseconds.",
+    "continuous_ai_monitoring": "Continuous AI Monitoring",
+    "loom_s_ai_risk_engine_runs_a": "LOOM's AI risk engine runs a complete threat assessment cycle every 340ms, 24 hours a day throughout the voyage.",
+    "predictive_alert_trigger": "Predictive Alert Trigger",
+    "when_risk_thresholds_are": "When risk thresholds are approached, LOOM pre-positions capsule resources and pre-calculates evacuation routes before any emergency is declared.",
+    "autonomous_rescue_activation": "Autonomous Rescue Activation",
+    "grapnel_capsules_deploy_stabilize": "GRAPNEL capsules deploy, stabilize, and begin rescue signal transmission — coordinating with global SAR systems until every passenger is recovered.",
+    "the_role_of_the_grapnel_capsule": "The Role of the Grapnel Capsule",
+    "the_grapnel_capsule_is_loom_s": "The GRAPNEL capsule is LOOM's final guarantee. Every other layer of the system works to prevent its use — but when emergency is unavoidable, the GRAPNEL is what ensures survival. Equipped with its own AI, life support, health monitoring, stabilization, and emergency beacon, the GRAPNEL operates entirely independently once deployed.",
+    "unlike_conventional_lifeboats_that": "Unlike conventional lifeboats that depend on crew operation and calm conditions, a GRAPNEL capsule activates itself, seals itself, and begins signaling for rescue the moment it hits the water. The LOOM system has already transmitted the capsule manifest, passenger health data, and drift projection to maritime rescue authorities before the capsule's EPIRB even activates."
   },
   "footer": {
-    "logo": "LOOM",
-    "tag": "Maritime Emergency Intelligence",
-    "links": [
-      { "text": "System", "page": "system" },
-      { "text": "Grapnel", "page": "grapnel" },
-      { "text": "Showcase", "page": "showcase" },
-      { "text": "Technical", "page": "technical" },
-      { "text": "About", "page": "about" }
-    ],
-    "copyright": "© 2026 LOOM Inc. All rights reserved."
+    "loom": "Loom",
+    "loom_2": "LOOM",
+    "ai_maritime_survival_intelligence": "AI Maritime Survival Intelligence System",
+    "home": "Home",
+    "system_architecture": "System Architecture",
+    "grapnel_capsule": "Grapnel Capsule",
+    "capsule_showcase": "Capsule Showcase",
+    "ai_technology": "AI Technology",
+    "about": "About",
+    "2026_loom_systems_grapnel_is_a": "© 2026 LOOM SYSTEMS · GRAPNEL IS A REGISTERED CONCEPT · FOR DEMONSTRATION PURPOSES"
   }
 }
